@@ -30,4 +30,3 @@ jobs:
       - run: docker tag upper ghcr.io/g0t4/upper:${{ github.ref_name }}
       - run: docker push ghcr.io/g0t4/upper:latest
       - run: docker push ghcr.io/g0t4/upper:${{ github.ref_name }}
-
